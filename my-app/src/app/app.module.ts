@@ -6,6 +6,8 @@ import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { PageNotFoundModule } from './page-not-found/page-not-found.module';
 import { SharedModule } from './shared/shared.module';
+import { CollectionService } from './core/services/collection.service';
+import { ItemsModule } from './items/items.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { SharedModule } from './shared/shared.module';
     CoreModule,
     SharedModule,
     HomeModule,
-    PageNotFoundModule
+    PageNotFoundModule,
+    ItemsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
