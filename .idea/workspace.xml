@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a272637-096c-465f-860e-5e598e1b0bd9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/core/collection.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/core/collection.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,20 +16,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="item.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="390">
+              <caret line="13" column="106" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="106" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state.directive.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="item.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state.directive.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="510">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -55,15 +74,16 @@
         <option value="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/core/collection.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.css" />
-        <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/home/containers/home/home.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/page-not-found/containers/page-not-found/page-not-found.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts" />
       </list>
     </option>
   </component>
@@ -179,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="item&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/items/components/item/item.component.html" />
+    <property name="SearchEverywhereHistoryKey" value="item&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/items/components/item/item.component.ts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -324,16 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/page-not-found/containers/page-not-found/page-not-found.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -385,20 +395,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts">
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="510">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="390">
+          <caret line="13" column="106" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

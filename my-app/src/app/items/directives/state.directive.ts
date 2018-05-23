@@ -1,4 +1,4 @@
-import {Directive, HostBinding, Input, OnInit} from '@angular/core';
+import {Directive, HostBinding, Input, OnChanges} from '@angular/core';
 import {State} from "../../shared/enums/state.enum";
 
 
@@ -12,7 +12,7 @@ import {State} from "../../shared/enums/state.enum";
  * 3 binder la propriété class de l'element sur lequel on applique cette directive avec
  *   un string construit à partir de item.state
  */
-export class StateDirective implements OnInit {
+export class StateDirective implements OnChanges {
   @Input() appState: State;
   @HostBinding('class') myClassName: string;
   constructor() {
@@ -20,7 +20,7 @@ export class StateDirective implements OnInit {
     // pour initialiser l'input appState
   }
 
-  ngOnInit(): void {
+  ngOnChanges(): void {
     console.log(this.appState);
     this.myClassName = this.formatCssClass(this.appState);
   }

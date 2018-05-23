@@ -19,4 +19,7 @@ export class CollectionService {
     this.collection = col;
   }
 
+  update(item: Item) {
+    console.log(item);
+  }
 }

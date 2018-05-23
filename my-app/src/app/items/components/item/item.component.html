@@ -9,6 +9,9 @@
   <div class="card-body">
     <h5 class="card-title">{{ item.name }}</h5>
     <p class="card-text">{{ item.reference }}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+    <button class="btn btn-primary" *ngIf="state.ALIVRER === item.state" (click)="changeState(state.ENCOURS)">{{ state.ENCOURS }}</button>
+    <button class="btn btn-primary" *ngIf="state.ENCOURS === item.state" (click)="changeState(state.LIVREE)">{{ state.LIVREE }}</button>
+
   </div>
 </div>
