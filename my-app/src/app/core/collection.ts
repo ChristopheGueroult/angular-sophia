@@ -18,6 +18,6 @@ export const COLLECTION: Item[] = [
     id: '2dfhg',
     name: 'Jean-stephanie',
     reference: '5852',
-    state: State.ALIVRER
+    state: State.LIVREE
   }
 ];
