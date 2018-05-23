@@ -7,6 +7,8 @@ import { HomeModule } from './home/home.module';
 import { PageNotFoundModule } from './page-not-found/page-not-found.module';
 import { SharedModule } from './shared/shared.module';
 import { ItemsModule } from './items/items.module';
+import {AppRoutingModule} from "./app-routing.module";
+import {Router} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -18,9 +20,14 @@ import { ItemsModule } from './items/items.module';
     SharedModule,
     HomeModule,
     PageNotFoundModule,
-    ItemsModule
+    ItemsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(router: Router) {
+    console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
+  }
+}
