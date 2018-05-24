@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9a272637-096c-465f-860e-5e598e1b0bd9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,38 +33,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/app/app.module.ts">
+      <file leaf-file-name="form.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="64" selection-start-column="57" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="10" column="14" selection-start-line="10" selection-end-line="11" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shared.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts">
+      <file leaf-file-name="add.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="37" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="469">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.html">
+      <file leaf-file-name="collection.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="619">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +96,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.css" />
-        <option value="$PROJECT_DIR$/my-app/src/styles.css" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/containers/list-items/list-items.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/core/collection.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.css" />
@@ -88,20 +103,26 @@
         <option value="$PROJECT_DIR$/my-app/src/app/page-not-found/containers/page-not-found/page-not-found.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/items/directives/state.directive.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/home/home.module.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/page-not-found/page-not-found.module.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/home/home-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/styles.css" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.css" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/items.module.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.ts" />
       </list>
     </option>
   </component>
@@ -120,7 +141,7 @@
       <path value="$PROJECT_DIR$/rxjs/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -162,6 +183,50 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-sophia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-sophia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-sophia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-sophia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-sophia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-sophia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-sophia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-sophia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="add" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-sophia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-sophia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,7 +246,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +257,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="nav&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/shared/components/nav/nav.component.ts&#10;HOME&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/home/home-routing.module.ts&#10;home&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/home/home.module.ts&#10;index.html&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/index.html&#10;item&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/items/components/item/item.component.ts" />
+    <property name="SearchEverywhereHistoryKey" value="nav&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/shared/components/nav/nav.component.html&#10;style&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/styles.css&#10;HOME&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/home/home-routing.module.ts&#10;home&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/home/home.module.ts&#10;index.html&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/index.html&#10;item&#9;FILE&#9;file://C:/Users/Administrateur/Documents/angular/angular-sophia/my-app/src/app/items/components/item/item.component.ts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,7 +311,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3854289" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3881081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24108107" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32902467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,13 +352,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -372,16 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/items/components/item/item.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -406,13 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -453,26 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/items.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/home/home-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -480,23 +501,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="37" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -514,10 +518,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/items-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="201">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/shared.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/items.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="57" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shared/components/form/form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/items/containers/add/add.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/core/services/collection.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

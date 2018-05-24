@@ -1,0 +1,42 @@
+<form class="form" novalidate #form="ngForm" (ngSubmit)="process()">
+
+  <div class="form-group">
+    <input
+      name="name"
+      type="text"
+      class="form-control"
+      placeholder="Full name"
+      required minlength="5"
+      [(ngModel)]="newItem.name"
+      #name="ngModel">
+  </div>
+
+  <div *ngIf="name.invalid && name.touched" class="alert alert-danger">Invalid field value</div>
+
+  <div class="form-group">
+    <input
+      name="reference"
+      type="text"
+      class="form-control"
+      placeholder="Reference"
+      required minlength="4"
+      [(ngModel)]="newItem.reference"
+      #ref="ngModel">
+  </div>
+
+  <div *ngIf="ref.invalid && ref.touched" class="alert alert-danger">Invalid field value</div>
+
+  <div class="form-group">
+    <select
+      name="state"
+      class="form-control"
+      [(ngModel)]="newItem.state">
+      <option *ngFor="let option of states" [ngValue]="option">{{ option }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Valid</button>
+  </div>
+  {{ newItem.name }}
+</form>

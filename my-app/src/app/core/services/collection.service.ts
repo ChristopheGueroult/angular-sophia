@@ -22,4 +22,8 @@ export class CollectionService {
   update(item: Item) {
     console.log(item);
   }
+
+  addItem(item: Item) {
+    this.collection.push(item);
+  }
 }

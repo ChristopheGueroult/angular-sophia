@@ -4,13 +4,16 @@ import { ListItemsComponent } from './containers/list-items/list-items.component
 import { ItemComponent } from './components/item/item.component';
 import { StateDirective } from './directives/state.directive';
 import {ItemsRoutingModule} from "./items-routing.module";
+import { AddComponent } from './containers/add/add.component';
+import {SharedModule} from "../shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
-    ItemsRoutingModule
+    ItemsRoutingModule,
+    SharedModule
   ],
-  declarations: [ListItemsComponent, ItemComponent, StateDirective],
+  declarations: [ListItemsComponent, ItemComponent, StateDirective, AddComponent],
   exports: [ListItemsComponent]
 })
 export class ItemsModule { }
