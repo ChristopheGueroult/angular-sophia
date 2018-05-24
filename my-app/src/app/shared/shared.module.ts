@@ -1,10 +1,13 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavComponent } from './components/nav/nav.component';
-import {RouterModule} from "@angular/router";
+import { NgModule } from '@angular/core';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
-import { FormComponent } from './components/form/form.component';
 import { FormsModule }   from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import {RouterModule} from "@angular/router";
+
+import { NavComponent } from './components/nav/nav.component';
+import { FormComponent } from './components/form/form.component';
+import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 
 @NgModule({
   imports: [
@@ -12,8 +15,9 @@ import { FormsModule }   from '@angular/forms';
     RouterModule,
     NgbModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
-  declarations: [NavComponent, FormComponent],
-  exports: [NavComponent, FormComponent]
+  declarations: [NavComponent, FormComponent, ReactiveFormComponent],
+  exports: [NavComponent, FormComponent, ReactiveFormComponent]
 })
 export class SharedModule { }
