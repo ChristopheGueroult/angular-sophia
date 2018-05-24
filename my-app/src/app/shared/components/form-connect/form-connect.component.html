@@ -1,0 +1,30 @@
+<form
+  class="form"
+  novalidate
+  (ngSubmit)="process()"
+  [formGroup]="form">
+
+  <div class="form-group">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Login"
+      formControlName="login"
+    >
+  </div>
+
+
+  <div class="form-group">
+    <input
+      type="password"
+      class="form-control"
+      placeholder="Password"
+      formControlName="psw"
+    >
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Valid</button>
+  </div>
+
+</form>

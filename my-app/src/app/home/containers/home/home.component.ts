@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Item} from "../../../shared/interfaces/item.model";
+import {ConnectModel} from "../../../shared/interfaces/connect.model";
+import {SignInService} from "../../../core/services/sign-in.service";
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private signInService: SignInService
+  ) { }
 
   ngOnInit() {
+  }
+
+  signIn(identifiants: ConnectModel): void {
+    this.signInService.signIn(identifiants);
   }
 
 }

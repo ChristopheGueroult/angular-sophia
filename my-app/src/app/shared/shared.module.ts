@@ -8,6 +8,7 @@ import {RouterModule} from "@angular/router";
 import { NavComponent } from './components/nav/nav.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
+import { FormConnectComponent } from './components/form-connect/form-connect.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,7 @@ import { ReactiveFormComponent } from './components/reactive-form/reactive-form.
     FormsModule,
     ReactiveFormsModule,
   ],
-  declarations: [NavComponent, FormComponent, ReactiveFormComponent],
-  exports: [NavComponent, FormComponent, ReactiveFormComponent]
+  declarations: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent],
+  exports: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent]
 })
 export class SharedModule { }
