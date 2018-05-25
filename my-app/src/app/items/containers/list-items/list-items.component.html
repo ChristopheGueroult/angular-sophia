@@ -1,6 +1,12 @@
 <div class="container">
-  <input type="text" placeholder="Filter"> test
-  <ng-container *ngFor="let cmd of collection2 | async">
+
+  <form class="form" [formGroup]="form">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Filter" formControlName="filter">
+    </div>
+  </form>
+
+  <ng-container *ngFor="let cmd of (collection2 | async) | filter: form.get('filter').value">
     <app-item [item]="cmd"></app-item>
   </ng-container>
 </div>

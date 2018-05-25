@@ -17,6 +17,9 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/items/add" (click)="isCollapsed = true">Add</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/comments/list" (click)="isCollapsed = true">Comments</a>
+      </li>
       <li class="nav-item" *ngIf="signInService.auth" (click)="signInService.signOut()">
         <button type="button" class="btn btn-primary btn-sm">
           <span class="icon-lock"></span>

@@ -9,6 +9,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { FormConnectComponent } from './components/form-connect/form-connect.component';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   imports: [
@@ -18,7 +19,7 @@ import { FormConnectComponent } from './components/form-connect/form-connect.com
     FormsModule,
     ReactiveFormsModule,
   ],
-  declarations: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent],
-  exports: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent]
+  declarations: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent, FilterPipe],
+  exports: [NavComponent, FormComponent, ReactiveFormComponent, FormConnectComponent, FilterPipe]
 })
 export class SharedModule { }

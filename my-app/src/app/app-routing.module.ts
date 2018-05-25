@@ -8,6 +8,10 @@ const appRoutes: Routes = [
     path: 'items',
     loadChildren: './items/items.module#ItemsModule',
     canActivate: [AuthGuardService]
+  },
+  {
+    path: 'comments',
+    loadChildren: './comments/comments.module#CommentsModule',
   }
 ];
 

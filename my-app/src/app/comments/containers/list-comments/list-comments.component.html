@@ -1,0 +1,5 @@
+<div class="container">
+  <ng-container *ngFor="let post of comments$ | async">
+    <app-comment [comment]="post"></app-comment>
+  </ng-container>
+</div>

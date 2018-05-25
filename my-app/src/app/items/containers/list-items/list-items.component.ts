@@ -1,7 +1,7 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import { CollectionService } from '../../../core/services/collection.service';
 import { Item } from '../../../shared/interfaces/item.model';
-import {FormControl} from "@angular/forms";
+import {FormBuilder, FormGroup} from "@angular/forms";
 import {Observable, Subscription} from "rxjs";
 
 @Component({
@@ -11,13 +11,16 @@ import {Observable, Subscription} from "rxjs";
 })
 export class ListItemsComponent implements OnInit, OnDestroy {
   collection: Item[]; // first example using an array
-  collection2: Observable<Item[]>;
-  filter: FormControl = new FormControl;
+  collection2: Observable<Item[]>; // second example using observable and async pipe
+  form: FormGroup;
   private sub: Subscription;
 
   constructor(
-    private collectionService: CollectionService
-  ) { }
+    private collectionService: CollectionService,
+    private fb: FormBuilder
+  ) {
+    this.createForm();
+  }
 
   ngOnInit() {
     // example : subscribe to an observable and get data in an array
@@ -28,6 +31,13 @@ export class ListItemsComponent implements OnInit, OnDestroy {
 
     // example 2 using Observable and pipe async in html for subcription and unsubscribe automatically
     this.collection2 = this.collectionService.getCollection();
+
+  }
+
+  createForm(): void {
+    this.form = this.fb.group({
+      filter: ''
+    });
   }
 
   ngOnDestroy(): void {

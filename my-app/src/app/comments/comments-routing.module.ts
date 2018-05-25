@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {ListItemsComponent} from "./containers/list-items/list-items.component";
 import {RouterModule, Routes} from "@angular/router";
-import {AddComponent} from "./containers/add/add.component";
+import {ListCommentsComponent} from "./containers/list-comments/list-comments.component";
 
 const appRoutes: Routes = [
-  { path: 'list', component: ListItemsComponent },
-  { path: 'add', component: AddComponent },
+  { path: 'list', component: ListCommentsComponent },
 ];
 
 @NgModule({
@@ -17,4 +15,4 @@ const appRoutes: Routes = [
     )
   ]
 })
-export class ItemsRoutingModule { }
+export class CommentsRoutingModule { }
