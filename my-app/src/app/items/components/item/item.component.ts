@@ -21,4 +21,8 @@ export class ItemComponent implements OnInit {
     this.collectionService.update(this.item);
   }
 
+  delete(): void {
+    this.collectionService.delete(this.item);
+  }
+
 }

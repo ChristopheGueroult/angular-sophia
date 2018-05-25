@@ -5,6 +5,8 @@
     <!--<span class="state-livree" *ngIf="state.LIVREE === item.state">{{ item.state }}</span>-->
 
     <span [appState]="item.state">{{ item.state }}</span>
+    <button class="btn btn-danger btn-sm float-right" (click)="delete()"><span class="icon-bin"></span></button>
+    <button class="btn btn-primary btn-sm float-right"><span class="icon-pencil2"></span></button>
   </div>
   <div class="card-body">
     <h5 class="card-title">{{ item.name | uppercase }}</h5>

@@ -6,7 +6,7 @@ import {Router} from "@angular/router";
   providedIn: 'root'
 })
 export class SignInService {
-  auth: boolean = false;
+  auth: boolean = true;
   login: string = 'chris';
   psw: string = 'superdady';
 

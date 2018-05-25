@@ -7,3 +7,8 @@
 .state-livree {
   color: green;
 }
+
+.card-header button {
+  display: inline-block;
+  margin-left: 5px;
+}
