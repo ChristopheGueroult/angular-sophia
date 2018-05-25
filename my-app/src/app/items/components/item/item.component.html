@@ -7,7 +7,7 @@
     <span [appState]="item.state">{{ item.state }}</span>
   </div>
   <div class="card-body">
-    <h5 class="card-title">{{ item.name }}</h5>
+    <h5 class="card-title">{{ item.name | uppercase }}</h5>
     <p class="card-text">{{ item.reference }}</p>
 
     <button class="btn btn-primary" *ngIf="state.ALIVRER === item.state" (click)="changeState(state.ENCOURS)">{{ state.ENCOURS }}</button>

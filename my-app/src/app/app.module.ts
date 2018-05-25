@@ -9,6 +9,9 @@ import { SharedModule } from './shared/shared.module';
 import {AppRoutingModule} from "./app-routing.module";
 import {Router} from "@angular/router";
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {environment} from "../environments/environment.prod";
+import {AngularFireModule} from "angularfire2";
+import { AngularFirestoreModule } from 'angularfire2/firestore';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     PageNotFoundModule,
     NgbModule.forRoot(),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

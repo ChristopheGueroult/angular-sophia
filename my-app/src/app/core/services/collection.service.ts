@@ -1,21 +1,27 @@
 import { Injectable } from '@angular/core';
-import { COLLECTION } from '../collection';
 import { Item } from '../../shared/interfaces/item.model';
+import {AngularFirestore, AngularFirestoreCollection} from "angularfire2/firestore";
+import {Observable} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
 })
 export class CollectionService {
-  private collection: Item[];
-  private constructor() {
-    this.setCollection(COLLECTION);
+  private collection: Observable<Item[]>;
+  private itemsCollection: AngularFirestoreCollection<Item>;
+
+  constructor(
+    private afs: AngularFirestore
+  ) {
+    this.itemsCollection = afs.collection<Item>('collection');
+    this.setCollection(this.itemsCollection.valueChanges());
   }
 
-  getCollection(): Item[] {
+  getCollection(): Observable<Item[]> {
     return this.collection;
   }
 
-  setCollection(col: Item[]): void {
+  setCollection(col: Observable<Item[]>): void {
     this.collection = col;
   }
 
@@ -24,6 +30,6 @@ export class CollectionService {
   }
 
   addItem(item: Item) {
-    this.collection.push(item);
+    // this.collection.push(item);
   }
 }

@@ -1,3 +1,6 @@
-<div class="container" *ngFor="let cmd of collection">
-  <app-item [item]="cmd"></app-item>
+<div class="container">
+  <input type="text" placeholder="Filter"> test
+  <ng-container *ngFor="let cmd of collection2 | async">
+    <app-item [item]="cmd"></app-item>
+  </ng-container>
 </div>
